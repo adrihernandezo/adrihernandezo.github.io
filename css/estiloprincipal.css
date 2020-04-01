@@ -1,0 +1,103 @@
+/*style*/
+#content{
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    float: left;
+
+}
+
+h1{
+   color:white; 
+   font: bold 33px verdana, sans-serif, color white; 
+}
+p{
+    color : yellow;
+    font-size: 25px;
+    text-align: justify;
+}
+
+ 
+header, section, footer, aside, nav, article, figure, figcaption,  hgroup{
+       display: block; } 
+
+#menu {   
+    background: #ffffff;   
+    padding: 5px 15px;
+    float: right;
+ } 
+#menu li {   
+    display: inline-block;   
+    list-style: none;   
+    padding: 5px;   
+    font: bold 14px verdana, sans-serif; } 
+
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+        display: block;
+        width: 100%;
+        height: auto;
+}
+ 
+#seccion {   
+    float: left; 
+    width: 45%;   
+    margin: 20px; 
+}
+
+#columna {   
+    float: left; 
+    width: 45%;   
+    margin: 20px 0px;   
+    padding: 20px;   
+    background: #CCCCCC; 
+}
+#pie{
+    text-align: center;
+}
+
+#columna1 {   
+    float: left; 
+    width: 30%;   
+    margin: 1%;
+    background-color:#CCCCCC;
+    position: absolute;
+    z-index:1; 
+    top:80%; 
+    left:5%;
+    width:300px;
+    height:12%; 
+    text-align: center;
+} 
+#columna2 {   
+    float: left; 
+    width: 30%;   
+    margin: 1%; 
+    background-color:#CCCCCC;
+    position: absolute;
+    z-index:1;
+    top:80%; 
+    left:38%;
+    width:300px;
+    height:12%; 
+}
+#columna3 {   
+    float: left; 
+    width: 30%;   
+    margin: 1%; 
+    background-color:#CCCCCC;
+    position: absolute;
+    z-index:1;
+    top:80%; 
+    left:70%;
+    width:300px;
+    height:12%;
+
+}
+#parrafo{
+    text-align: center;
+    color: black;
+}
